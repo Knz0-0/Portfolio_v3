@@ -23,27 +23,35 @@
         <div class="detailsProjet">
             <img src="../../images/placeholder-banniere.png" alt="banniere" class="banniere">
             <h1>PxlArt</h1>
+            <a href="https://github.com/Knz0-0/PxlArt">https://github.com/Knz0-0/PxlArt</a>
             <h3>Description</h3>
             <p>
-                PxlArt est un logiciel d'édition de pixel-art, réalisé en Java. C'est un projet personnel que
-                j'ai eu en juillet 2024, et qui m'a pris environ 3 semaines à terminer. L'objectif était de créer un
-                logiciel spécifique à ce type d'art en particulier, afin de faciliter la création. Ce projet m'a permis
-                d'améliorer mes compétences en Java, et m'a notamment appris à utiliser les bibliothèques swing et awt.
+                PxlArt est un éditeur de pixel art en Java, créé pour offrir aux utilisateurs une interface intuitive et personnalisable. Cet éditeur permet de réaliser des œuvres en pixel art, avec des outils simples, de la personnalisation de couleurs et des options de sauvegarde variées, rendant le logiciel adapté à des créations de petite à moyenne échelle.
 
             </p>
             <div class="photos">
                 <img src="../../images/PxlArtProjectP1.png" alt="photo" class="photo">
-                <img src="../../images/placeholder-photo2.png" alt="photo" class="photo">
-                <img src="../../images/placeholder-photo3.png" alt="photo" class="photo">
+                <img src="../../images/PxlArtProjectP2.png" alt="photo" class="photo">
+                <img src="../../images/PxlArtProjectP3.png" alt="photo" class="photo">
             </div>
+
             <h3>Fonctionalités</h3>
+            
+            <ul>
+                <li><strong>Palette personnalisable</strong> : L’utilisateur a accès à dix couleurs de base, modifiables à l’aide d’un bouton "Personnaliser les couleurs" qui ouvre une palette dans une fenêtre pop-up. Les couleurs sélectionnées peuvent être changées à tout moment pour créer des palettes variées.</li>
+                <li><strong>Sauvegarde flexible</strong> : Les créations peuvent être enregistrées soit dans un format "pixel par pixel" (1 pixel = 1 case de dessin), soit en taille réelle, ce qui rend le logiciel adaptable aux différentes résolutions d’export.</li>
+                <li><strong>Options de dessin</strong> : PxlArt propose une grille ajustable pour dessiner avec précision, une option de "Clear" pour effacer le canevas, et des boutons de couleur regroupés pour un accès rapide aux outils.</li>
+                <li><strong>Interface optimisée</strong> : Des menus, des icônes et des styles de polices personnalisés enrichissent l’expérience utilisateur et rendent l’interface fluide et visuellement attrayante.</li>
+            </ul>
+            
+            <h3>Comment j'ai développé ce projet</h3>
             <p>
-                - Choix de la taille de la grille et des cases; <br>
-                - Palette de couleurs personalisable; <br>
-                - Sauvegarde de l'imge créée en taille réelle ou en "1 case = 1px"; <br>
-                - Ouverture et modification d'une image existante; <br>
-                - (à venir) Fonctionalités telles que retour en arrière, remplissage de zone, taille de pinceau...
+                Le développement de PxlArt a été une opportunité pour mettre en pratique mes compétences en Java et en interface graphique Swing. J'ai structuré le projet autour d'une classe principale, PxlArtApp, qui gère l’interface utilisateur, et d’une classe Dessin dédiée au canevas et à la gestion des pixels. La palette de couleurs personnalisable a été implémentée grâce à des JColorChooser dans une fenêtre pop-up, permettant de sélectionner et d'appliquer des couleurs en temps réel. Pour l’export des images, j’ai utilisé la bibliothèque ImageIO, et les options de sauvegarde m’ont permis de manipuler différents types de formats d’image.
+                <br><br>
+                Ce projet a non seulement consolidé mes compétences en gestion de l’interface graphique et en manipulation d’images, mais m'a également permis de concevoir une application conviviale et fonctionnelle.
             </p>
+            
+            
 
         </div>
 

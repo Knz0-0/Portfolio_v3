@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>_knz0 | ProjectName</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/x-icon" href="../../images/logo.png">
+    <script src="../../script.js" defer></script>
+</head>
+
+<body>
+    <div class="overlay"></div>
+
+    <header>
+        <a href="../projects.html" class="btnRetour">retour</a>
+    </header>
+
+    <main>
+        <div class="detailsProjet">
+            <img src="../../images/placeholder-banniere.png" alt="banniere" class="banniere">
+            <h1>Stajet</h1>
+
+            <h3>Description</h3>
+            <p>
+                Ce projet consiste en l'optimisation et l'amélioration d'une application dédiée au suivi de la recherche
+                de stage pour les étudiants à l'IUT2 de Grenoble. L'objectif est d'identifier et de corriger les
+                faiblesses de conception, d'ergonomie, de performances et de qualité logicielle, sans ajouter de
+                nouvelles fonctionnalités.
+            </p>
+
+            <div class="photos">
+                <img src="../../images/StajetProjectP1.png" alt="photo" class="photo">
+                <img src="../../images/StajetProjectP2.png" alt="photo" class="photo">
+                <img src="../../images/StajetProjectP3.png" alt="photo" class="photo">
+            </div>
+
+            <h3>Structure</h3>
+            <p>L'application est composée de quatre modules : une app mobile pour les étudiants (Android), un
+                back-office web pour les responsables (Symfony), un service web API REST, et une base de données
+                PostgreSQL.</p>
+
+            <h3>Stack & Méthodo</h3>
+            <p>
+                <strong>Technos :</strong> Java (Android), Symfony 5.4 (PHP), PostgreSQL, Chart.js, Bootstrap,
+                Docker<br>
+                <strong>Tests :</strong> Espresso, Cypress, SUS, Think Aloud<br>
+                <strong>Méthodo :</strong> rétroconception → conception → dev → tests → doc
+            </p>
+
+            <h3>Améliorations principales</h3>
+            <div>
+                <h4>Backend</h4>
+                <ul>
+                    <li>Modèle de données revu en 3FN</li>
+                    <li>Refacto Symfony avec services pour la logique métier</li>
+                    <li>Import d'offres via .txt avec expressions régulières</li>
+                    <li>Affectation automatique des stages (algo hongrois)</li>
+                    <li>Dockerisation complète de l'app (Dockerfile + docker-compose)</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Frontend mobile (Android)</h4>
+                <ul>
+                    <li>Navigation refondue avec fragments + barre de navigation</li>
+                    <li>Gestion du cycle de vie améliorée (clearTop, finish)</li>
+                    <li>Ajout de feedback utilisateur (Toasts, AlertDialog)</li>
+                    <li>Meilleure gestion des erreurs et affichage de données plus claires</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Frontend Web (Back-office)</h4>
+                <ul>
+                    <li>Refonte UI avec Bootstrap + cohérence visuelle</li>
+                    <li>Ajout de graphiques dynamiques (Chart.js)</li>
+                    <li>Accessibilité renforcée (contraste, aria, HTML sémantique)</li>
+                    <li>Tableau de bord enrichi et responsive</li>
+                </ul>
+            </div>
+
+            <h3>Résultats</h3>
+            <ul>
+                <li>Couverture de code : 83% backend / 76% frontend</li>
+                <li>Tests automatisés stables à +90%</li>
+                <li>Score SUS : 81/100 (vs 62 avant refonte)</li>
+                <li>Temps d'apprentissage réduit de 40%, erreurs utilisateur -60%</li>
+            </ul>
+
+            <h3>Perspectives</h3>
+            <ul>
+                <li>Ajout de notifications push sur mobile</li>
+                <li>API plus complète pour interopérabilité (Moodle, scolarité…)</li>
+                <li>Matching offres/profils via IA (personnalisation automatique)</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>K.R.E. ¤ 2024</p>
+    </footer>
+
+    <div class="shadow right"></div>
+    <div class="shadow left"></div>
+</body>
+
+</html>

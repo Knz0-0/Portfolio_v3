@@ -1,66 +1,94 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>_knz0 | Marapont</title>
-    <link rel="stylesheet" href="../../style.css" />
-    <link rel="icon" type="image/x-icon" href="../../images/logo.png">
-    <script src="../../script.js" defer></script>
-  </head>
 
-  <body>
-    <div class="overlay"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>_knz0 | Marapont</title>
+  <link rel="stylesheet" href="../../style.css" />
+  <link rel="icon" type="image/x-icon" href="../../images/logo.png">
+  <script src="../../script.js" defer></script>
+</head>
 
-    <header>
-      <a href="../projects.html" class="btnRetour">retour</a>
-    </header>
+<body>
+  <div class="overlay"></div>
 
-    <main>
-      <div class="detailsProjet">
-        <img
-          src="../../images/placeholder-banniere.png"
-          alt="banniere"
-          class="banniere"
-        />
-        <h1>Marapont</h1>
-        <h3>Description</h3>
-        <p>
-          Marapont est un site web qui a pour but de promouvoir et préserver les
-          ponts français.
-        </p>
-        <div class="photos">
-          <img
-            src="../../images/placeholder-photo1.png"
-            alt="photo"
-            class="photo"
-          />
-          <img
-            src="../../images/placeholder-photo2.png"
-            alt="photo"
-            class="photo"
-          />
-          <img
-            src="../../images/placeholder-photo3.png"
-            alt="photo"
-            class="photo"
-          />
-        </div>
-        <h3>Fonctionalités</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore non
-          ipsam tempora mollitia sed impedit et necessitatibus ipsa dolor
-          commodi. Repellendus eum hic harum eos officiis, rerum similique
-          eveniet nostrum?
-        </p>
+  <header>
+    <a href="../projects.html" class="btnRetour">retour</a>
+  </header>
+
+  <main>
+    <div class="detailsProjet">
+      <img src="../../images/placeholder-banniere.png" alt="banniere" class="banniere" />
+      <h1>Marapont</h1>
+      <h3>Description</h3>
+      <p>
+        Marapont est une application web dédiée à la valorisation du patrimoine français à travers ses ponts
+        emblématiques.
+        Elle propose des packages regroupant des activités culturelles et sportives, à réserver le long d'itinéraires
+        autour de ces ponts.
+        Les utilisateurs peuvent aussi composer leur propre itinéraire en ajoutant des activités à leur panier.
+      </p>
+
+      <div class="photos">
+        <img src="../../images/MarapontProjectP1.png" alt="photo" class="photo" />
       </div>
-    </main>
+      <div class="photos">
+        <img src="../../images/MarapontProjectP2.png" alt="photo" class="photo" />
+        <img src="../../images/MarapontProjectP3.png" alt="photo" class="photo" />
+      </div>
 
-    <footer>
-      <p>K.R.E. ¤ 2024</p>
-    </footer>
 
-    <div class="shadow right"></div>
-    <div class="shadow left"></div>
-  </body>
+      <h3>Fonctionnalités</h3>
+      <ul>
+        <li>🏞️ Affichage et réservation de packages d'activités autour des ponts</li>
+        <li>🛒 Panier personnalisé permettant de construire son propre voyage</li>
+        <li>📲 Site responsive (ordinateur, tablette, mobile)</li>
+        <li>🔐 Authentification sécurisée avec BetterAuth (rate-limiting, scrypt)</li>
+        <li>📍 Intégration de cartes interactives (affichage des activités)</li>
+        <li>👥 Gestion des utilisateurs : particuliers et professionnels</li>
+        <li>🧪 Tests utilisateurs (Think Aloud, SUS) et questionnaires d'expérience</li>
+        <li>💾 Intégration de données OpenData via Talend (ponts de France)</li>
+        <li>🔧 Back-end basé sur Astro.js, TypeScript, Drizzle ORM et Docker</li>
+        <li>🛡️ Sécurité renforcée : OWASP Top 10, SSL, pare-feu UFW, PostgreSQL chiffré</li>
+      </ul>
+
+      <h3>Tech stack</h3>
+      <p>
+        Le projet repose sur <strong>Astro.js</strong> avec intégration <strong>Vue.js</strong>,
+        <strong>TypeScript</strong>, <strong>Drizzle ORM</strong> pour la base PostgreSQL,
+        et un déploiement conteneurisé avec <strong>Docker</strong>. Les actions Astro ont été utilisées pour structurer
+        le backend et assurer une communication typée.
+      </p>
+
+      <h3>Tests & UX</h3>
+      <p>
+        Des tests qualitatifs et quantitatifs ont été menés, ciblant plusieurs personas (jeune sportif, parent
+        randonneur, commerçante senior).
+        Résultat ? Un score moyen de <strong>73/100</strong> au questionnaire SUS, indiquant une bonne utilisabilité.
+      </p>
+
+      <h3>Difficultés & Bilan</h3>
+      <p>
+        Le projet a rencontré des défis techniques (technos peu maîtrisées) et humains (absences, limitations
+        matérielles). Malgré ça,
+        l’équipe a su livrer une application fonctionnelle, responsive et bien sécurisée. Le travail collaboratif via
+        Discord, Drive, pair programming et GitLab a été essentiel.
+      </p>
+
+      <h3>Lien</h3>
+      <p>
+        <a href="https://marapont.fr" target="_blank">https://marapont.fr</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>K.R.E. ¤ 2024</p>
+  </footer>
+
+  <div class="shadow right"></div>
+  <div class="shadow left"></div>
+</body>
+
 </html>
